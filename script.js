@@ -1,7 +1,7 @@
 function play(playerChoice) {
     const choices = ['rock', 'paper', 'scissors'];
     const computerChoice = choices[Math.floor(Math.random() * 3)];
-        //I don't fully understand this code^. Array??
+        //^Array??
 
         //Tells what computers choice is
     document.getElementById("computerChoice").innerHTML= computerChoice;
